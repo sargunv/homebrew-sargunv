@@ -5,7 +5,7 @@ class Modsman < Formula
       :tag      => "0.20.1",
       :revision => "b23331f7080b5a2718ab43e4120372bcf3421b6d"
 
-  depends_on :java => "1.8+"
+  depends_on :java => "11+"
 
   def install
     system "./gradlew", ":modsman-cli:installDist"
