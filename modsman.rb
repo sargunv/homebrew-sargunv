@@ -3,10 +3,9 @@ class Modsman < Formula
   homepage "https://gitlab.com/sargunv-mc-mods/modsman"
   head "https://gitlab.com/sargunv-mc-mods/modsman.git"
 
-  # for new versions, update the url's build number and artifact name, the sha256, and the version
-  url "https://dev.azure.com/sargunvohra/modsman/_apis/build/builds/37/artifacts?artifactName=modsman-cli-0.20.1&api-version=5.0&%24format=zip"
-  sha256 "136609552bbddbe3dbbd64c6a7731e8ff7cb8fcf8b92532172142f3b0d3d9da2"
-  version "0.20.1"
+  url "https://github.com/sargunv/modsman/releases/download/0.21.0/modsman-cli-0.21.0.zip"
+  sha256 "D28241E74D591AC81E31461140F80EC8458D9B83C43E70319C55328B393C4E62"
+  version "0.21.0"
 
   depends_on :java => "11+"
 
