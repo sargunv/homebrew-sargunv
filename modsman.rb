@@ -4,7 +4,7 @@ class Modsman < Formula
   head "https://gitlab.com/sargunv-mc-mods/modsman.git"
 
   url "https://github.com/sargunv/modsman/releases/download/0.21.0/modsman-cli-0.21.0.zip"
-  sha256 "D28241E74D591AC81E31461140F80EC8458D9B83C43E70319C55328B393C4E62"
+  sha256 "d28241e74d591ac81e31461140f80ec8458d9b83c43e70319c55328b393c4e62"  # MUST BE LOWERCASE
   version "0.21.0"
 
   depends_on :java => "11+"
