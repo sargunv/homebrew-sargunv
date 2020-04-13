@@ -7,7 +7,7 @@ class Modsman < Formula
   sha256 "d28241e74d591ac81e31461140f80ec8458d9b83c43e70319c55328b393c4e62"  # MUST BE LOWERCASE
   version "0.21.0"
 
-  depends_on "java11"
+  depends_on "java"
 
   def install
     if build.head?
