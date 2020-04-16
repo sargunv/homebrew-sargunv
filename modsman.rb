@@ -3,7 +3,7 @@ class Modsman < Formula
   homepage "https://gitlab.com/sargunv-mc-mods/modsman"
   head "https://gitlab.com/sargunv-mc-mods/modsman.git"
 
-  url "https://github.com/sargunv/modsman/releases/download/0.22.0/modsman-cli-0.30.0.zip"
+  url "https://github.com/sargunv/modsman/releases/download/0.30.0/modsman-cli-0.30.0.zip"
   sha256 "83d43a470be0f37639cc6da9bb59a4a1fc6331c19fb6c4a58048e0582fc32b89"  # MUST BE LOWERCASE
   version "0.30.0"
 
