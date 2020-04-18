@@ -3,9 +3,9 @@ class Modsman < Formula
   homepage "https://gitlab.com/sargunv-mc-mods/modsman"
   head "https://gitlab.com/sargunv-mc-mods/modsman.git"
 
-  url "https://github.com/sargunv/modsman/releases/download/0.30.1/modsman-cli-0.30.1.zip"
-  sha256 "5659a688de6a9744ae8d0d53671cfdfebcd4593df534afac10c0dd75dcbf7864"  # MUST BE LOWERCASE
-  version "0.30.1"
+  url "https://github.com/sargunv/modsman/releases/download/0.32.0/modsman-cli-0.32.0.zip"
+  sha256 "799cc4c965c2a1cc6253095887424276fafc25abf2323f4c867e0c29cc0189e8"  # MUST BE LOWERCASE
+  version "0.32.0"
 
   depends_on :java => "11+"
 
